@@ -3,7 +3,7 @@ import {format} from 'date-fns';
 import './App.css';
 
 const App = () =>{
-  const date = format(new Date(), "dd.MM.yy k:m");
+  const date = format(new Date(), "dd.MM.yy HH:MMg");
   return (
     <div className = 'App'>
       <div className='head'>
